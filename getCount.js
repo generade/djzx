@@ -1,6 +1,4 @@
 $(document).ready(function(){
-  $(".dati").removeAttr("data-toggle");
-  $(".dati").removeAttr("data-target");
   $(".dati").bind("click",function(){
     ajaxGet('game_info/share');
   });
